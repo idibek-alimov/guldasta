@@ -1,0 +1,103 @@
+.about-div {
+  background: url("../../../public/back2.png");
+  width: 100%;
+  min-height: 1300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-div .about-box {
+  width: 80%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ABOUT-INFO ABOUT-INFO ABOUT-INFO ABOUT-INFO */
+
+.about-info {
+  width: 100%;
+  height: fit-content;
+}
+.about-info .about-info-inner-box {
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 3px solid white;
+  border-radius: 20px;
+}
+.about-info .about-info-inner-box img {
+  width: 40%;
+  height: 120%;
+  margin: -30px 0px 0px -50px;
+}
+.about-info .about-info-inner-box .about-info-text {
+  font-family: "Montserrat";
+  width: 50%;
+  text-align: start;
+  margin-left: 40px;
+}
+.about-info .about-info-inner-box .about-info-text .text {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* ABOUT-INFO ABOUT-INFO ABOUT-INFO ABOUT-INFO */
+
+/* REASON-INFO REASON-INFO REASON-INFO REASON-INFO*/
+.about-reason {
+  margin-top: 5%;
+  width: 100%;
+}
+.about-reason span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+}
+.about-reason .about-reason-inner-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.about-reason .about-reason-inner-box .about-reason-circle-box {
+  position: relative;
+  border: 3px solid white;
+  border-radius: 100%;
+  padding: 5%;
+  margin: 7%;
+}
+.about-reason .about-reason-inner-box .mini-reason-box {
+  position: absolute;
+}
+.about-reason .about-reason-inner-box .top {
+  left: 0;
+  right: 0;
+  top: 0;
+  margin-top: -9%;
+}
+.about-reason .about-reason-inner-box .left {
+  top: 43%;
+  left: 0;
+
+  margin-left: -9%;
+}
+.about-reason .about-reason-inner-box .bottom {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-bottom: -9%;
+}
+
+.about-reason .about-reason-inner-box .right {
+  top: 43%;
+  right: 0;
+  margin-right: -9%;
+}
+/* REASON-INFO REASON-INFO REASON-INFO REASON-INFO*/

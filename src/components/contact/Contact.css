@@ -1,0 +1,89 @@
+.contact-div {
+  width: 80%;
+  height: fit-content;
+  min-height: 400px;
+  margin-top: 20px;
+}
+.contact-div .contact-box {
+  width: 100%;
+  height: 100%;
+  background: url("../../../public/back.png");
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contact-div .contact-box img {
+  width: 40%;
+  height: 100%;
+}
+.contact-div .contact-box .contact-info-wrapper {
+  width: 55%;
+  height: 100%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.contact-div .contact-box .contact-info-wrapper .contact-text {
+  width: 80%;
+  height: 25%;
+  font-size: 20px;
+  text-align: left;
+}
+.contact-div .contact-box .contact-info-wrapper .form {
+  height: 60%;
+  width: 80%;
+  margin-bottom: 10px;
+  font-family: "Montserrat";
+  text-align: left;
+}
+.contact-div .contact-box .contact-info-wrapper .form .name-age-box {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 10px 0;
+}
+.contact-div .contact-box .contact-info-wrapper .form .input-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.contact-div .contact-box .contact-info-wrapper .form .input-wrap input {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  outline: none;
+  margin-top: 5px;
+}
+
+.contact-div .contact-box .contact-info-wrapper .form .age-box {
+  width: 30%;
+  margin: 0 0 0 20px;
+}
+.contact-div .contact-box .contact-info-wrapper .form .number-box {
+  width: 50%;
+}
+/* .contact-div .contact-box .contact-info-wrapper .form .name-age-box input {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  outline: none;
+} */
+.contact-div .contact-box .contact-info-wrapper .form .name-age-box span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+  color: #000000;
+}
+
+.contact-div .contact-box .contact-info-wrapper .form .extra-box {
+  padding: 5px 0 5px 0;
+}
+.contact-div .contact-box .contact-info-wrapper .form .extra-box textarea {
+  outline: none;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  border-radius: 5px;
+}

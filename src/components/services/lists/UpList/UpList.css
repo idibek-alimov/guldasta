@@ -1,0 +1,11 @@
+.up-list-div {
+  width: 100%;
+  height: fit-content;
+}
+.up-list-div .up-list-box {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

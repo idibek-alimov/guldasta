@@ -1,0 +1,17 @@
+.button-box {
+}
+.button-box button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  width: fit-content;
+  padding: 10px 20px 10px 20px;
+  height: 25px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  background: radial-gradient(50% 50% at 50% 50%, #ff00f5 0%, #bd00ff 100%);
+  border-radius: 20px;
+}
